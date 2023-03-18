@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 386.0, 136.0, 640.0, 480.0 ],
+		"rect" : [ 386.0, 136.0, 901.0, 579.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,29 +40,6 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 526.0, 63.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 526.0, 97.0, 91.0, 22.0 ],
-					"text" : "pr.align-present"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 6,
@@ -72,8 +49,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -484,8 +461,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 3,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1129,7 +1106,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 6,
-					"outlettype" : [ "list", "list", "int", "int", "int", "int" ],
+					"outlettype" : [ "list", "list", "int", "int", "", "int" ],
 					"patching_rect" : [ 131.5, 113.0, 221.0, 22.0 ],
 					"text" : "mc.noteallocator~ @voices 16 @steal 1"
 				}
@@ -1755,13 +1732,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"order" : 0,
 					"source" : [ "obj-70", 0 ]
@@ -1821,20 +1791,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/pr.strong/patchers/pr.strong/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pr.align-present.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/pr.align-present/patchers",
-				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/pr.align-present/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pr.align-present.js",
-				"bootpath" : "~/Documents/Max 8/Packages/pr.dev-tools/patchers/pr.align-present/code",
-				"patcherrelativepath" : "../../../../pr.dev-tools/patchers/pr.align-present/code",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
